@@ -132,3 +132,6 @@ df_new = df_new.T
 ###行列轉換###
 ```
 ![result](pic/dataframe2.PNG)
+
+## dataframe io
+https://pandas.pydata.org/pandas-docs/stable/io.html
