@@ -111,3 +111,24 @@ df.tail()
 ###後幾筆###
 ```
 ![result](pic/dataframe.PNG)
+```
+import numpy as np
+import pandas as pd
+from pandas import Series, DataFrame
+data = {
+    'Country': ['China', 'India', 'Brazil'],
+    'Capital': ['Beijing', 'New Delhi', 'Brasilia'],
+    'Population': ['1432732201', '1303171635', '207847528']
+}
+df = DataFrame(data, index=['A','B','C'])
+for row in df.iterrows():
+    print(row[0],row[1])
+###iterrows逐列取出###
+s1 = Series(data['Capital'])
+s2 = Series(data['Country'])
+s3 = Series(data['Population'])
+df_new = DataFrame([s1,s2,s3], index=['Capital', 'Country', 'Population'])
+df_new = df_new.T
+###行列轉換###
+```
+![result](pic/dataframe2.PNG)
