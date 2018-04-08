@@ -57,3 +57,23 @@ z=np.cos(x)
 plt.plot(x,z)
 ```
 ![result](pic/plot2.PNG)
+
+### pandas
+```
+from pandas import Series
+a = [1, 2, 3, 4]
+s = Series(a)
+s.index
+s.values
+s1 = Series(a, index=['A','B','C','D'])
+import numpy as np
+s2 = Series(np.arange(5))
+d = {'A':1,'B':2,'C':3,'D':4}
+s3 = Series(d)
+s3.to_dict()
+s3.pop('A')
+b = s3.pop('B')
+s4 = Series(s3, index=['B','C','D'])
+s4.isnull()
+s4.notnull()
+```
