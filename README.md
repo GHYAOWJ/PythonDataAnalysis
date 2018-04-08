@@ -10,6 +10,7 @@ conda -V
 conda list
 ipython
 ```
+(!result)[pic/conda-v.png]
 ### array
 ```
 array.shape
