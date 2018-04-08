@@ -45,3 +45,13 @@ plt.plot(a, b)
 plt.plot(a, b, '*')
 ```
 ![result](pic/plot.PNG)
+```
+import numpy as np
+import matplotlib.pyplot as plt
+x=np.arange(0,6,0.1)
+y=np.sin(x)
+plt.plot(x,y)
+z=np.cos(x)
+plt.plot(x,z)
+```
+![result](pic/plot2.PNG)
