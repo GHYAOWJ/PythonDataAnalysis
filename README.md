@@ -1,6 +1,7 @@
 # PythonDataAnalysis
 
 ## jupyter
+http://jupyter.org/install
 ```
 start 
 jupyter notebook
@@ -36,6 +37,7 @@ a*b
 ![result](pic/matrix.PNG)
 
 ### matplotlib
+https://matplotlib.org/
 ```
 import numpy as np
 import matplotlib.pyplot as plt
