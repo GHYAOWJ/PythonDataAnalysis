@@ -135,3 +135,17 @@ df_new = df_new.T
 
 ## dataframe io
 https://pandas.pydata.org/pandas-docs/stable/io.html
+```
+import numpy as np
+import pandas as pd
+from pandas import Series, DataFrame
+df = pd.read_clipboard()
+df.to_csv('df_io.csv',index=False)
+! dir
+! type df_io.csv
+df_json = df.to_json()
+pd.read_json(df_json)
+df.to_html('df_io.html')
+df_html = pd.read_html('df_io.html')
+```
+![result](pic/dataframe_io.PNG)
