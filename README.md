@@ -79,3 +79,34 @@ s4.isnull()
 s4.notnull()
 ```
 ![result](pic/panda.PNG)
+
+```
+import numpy as np
+import pandas as pd
+from pandas import Series,DataFrame
+link = 'https://www.tiobe.com/tiobe-index/'
+import webbrowser
+webbrowser.open(link)
+df = pd.read_clipboard()
+###df = pd.read_clipboard() 需將網頁中表格複製###
+df
+df.Ratings
+df['Programming Language']
+df.columns
+df.index
+df_new = DataFrame(df, columns=['Programming Language','Apr 2018'])
+df_new = DataFrame(df, columns=['Programming Language','Apr 2017','Apr 2018'])
+df_new['Oct 2018'] = range(0,10)
+df_new = DataFrame(df, columns=['Programming Language','Oct 2017','Oct 2018'])
+df_new['Oct 2018'] = Series([100,200], index=[2,3])
+df[0:4]
+###0-3###
+df.loc[0:3,['Oct 2016', 'Programming Language']]
+###0-4###
+df.iloc[0:3, 0:3]
+###0-3:0-3###
+df.head()
+###前幾筆###
+df.tail()
+###後幾筆###
+```
