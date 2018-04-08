@@ -78,3 +78,4 @@ s4 = Series(s3, index=['B','C','D'])
 s4.isnull()
 s4.notnull()
 ```
+![result](pic/panda.PNG)
