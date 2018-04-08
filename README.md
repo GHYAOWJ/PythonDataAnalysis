@@ -59,6 +59,7 @@ plt.plot(x,z)
 ![result](pic/plot2.PNG)
 
 ### pandas
+https://pandas.pydata.org/pandas-docs/stable/generated/pandas.Series.html
 ```
 from pandas import Series
 a = [1, 2, 3, 4]
