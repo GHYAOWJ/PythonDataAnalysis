@@ -12,6 +12,7 @@ ipython
 ```
 ![result](pic/conda-v.png)
 ![result](pic/conda list.png)
+
 ### array
 ```
 array.shape
@@ -24,6 +25,7 @@ numpy.eye(單位矩陣)
 ![result](pic/python_array.PNG)
 ![result](pic/python_array2.PNG)
 ![result](pic/python_array3.PNG)
+
 ### matrix
 ```
 ## mat矩陣
@@ -33,3 +35,12 @@ a*b
 ```
 ![result](pic/matrix.PNG)
 
+### matplotlib
+```
+import numpy as np
+import matplotlib.pyplot as plt
+a = [1, 2, 3]
+b = [4, 5, 6]
+plt.plot(a, b)
+plt.plot(a, b, '*')
+```
