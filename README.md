@@ -21,8 +21,8 @@ numpy.eye(單位矩陣)
 ```
 ### matrix
 ```
-import numpy as np
-a=np.mat(np.random.randint(10,size=20).reshape(4,5))
-b=np.mat(np.random.randint(10,size=20).reshape(5,4))
+## mat矩陣
+a=numpy.mat(np.random.randint(亂數最大值,size=陣列長度).reshape(列,行))
+b=numpy.mat(np.random.randint(亂數最大值,size=陣列長度).reshape(列,行))
 a*b
 ```
