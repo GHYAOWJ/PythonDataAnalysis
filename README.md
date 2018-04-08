@@ -15,4 +15,5 @@ ipython
 array.shape
 array.size
 array.dtype
+numpy.arange(初始值,最大值,選項-間隔值)
 ```
