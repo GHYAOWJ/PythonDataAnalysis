@@ -110,3 +110,4 @@ df.head()
 df.tail()
 ###後幾筆###
 ```
+![result](pic/dataframe.PNG)
