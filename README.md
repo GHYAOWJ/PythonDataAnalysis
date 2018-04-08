@@ -19,3 +19,7 @@ numpy.arange(初始值,最大值,選項-間隔值)
 numpy.zeros([列,行])
 numpy.eye(單位矩陣)
 ```
+### matrix
+```
+numpy.mat
+```
