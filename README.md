@@ -148,4 +148,4 @@ pd.read_json(df_json)
 df.to_html('df_io.html')
 df_html = pd.read_html('df_io.html')
 ```
-![result](pic/dataframe_io.PNG)
+![result](pic/dateframe_io.PNG)
