@@ -11,7 +11,7 @@ conda list
 ipython
 ```
 ![result](pic/conda-v.png)
-![result](pic/conda list.png)
+![result](pic/conda%20list.png)
 
 ### array
 ```
