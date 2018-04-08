@@ -44,3 +44,4 @@ b = [4, 5, 6]
 plt.plot(a, b)
 plt.plot(a, b, '*')
 ```
+![result](pic/plot.PNG)
