@@ -1,6 +1,6 @@
 # PythonDataAnalysis
 
-##jupyter
+## jupyter
 ```
 start 
 jupyter notebook
