@@ -149,3 +149,8 @@ df.to_html('df_io.html')
 df_html = pd.read_html('df_io.html')
 ```
 ![result](pic/dateframe_io.PNG)
+
+## scipy
+```
+```
+![result](pic/scipy.PNG)
